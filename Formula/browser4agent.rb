@@ -1,20 +1,20 @@
 class Browser4agent < Formula
   desc "MCP server that reads browser tab content and controls the browser"
   homepage "https://github.com/mantou132/browser4agent"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mantou132/browser4agent/releases/download/v0.4.0/browser4agent-aarch64-apple-darwin.tar.gz"
-      sha256 "597ad56ff022449567a5f5ccfb161682a6da3781035f60d685671d3da4f5f456"
+      url "https://github.com/mantou132/browser4agent/releases/download/v0.4.1/browser4agent-aarch64-apple-darwin.tar.gz"
+      sha256 "e4c68d2fa6bf5f4c653cf70555ffbe88a0c57f6b986a939c675176439d66e8a6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mantou132/browser4agent/releases/download/v0.4.0/browser4agent-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9a0c0384cb61284c4ac78e116bb1eb7803a4476246ddb6844256faf81690d79e"
+      url "https://github.com/mantou132/browser4agent/releases/download/v0.4.1/browser4agent-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0af9a2ca9525c898d930d8fb90f7aee0c7f5321a4c0e86c47e9489ba739e0126"
     end
   end
 
