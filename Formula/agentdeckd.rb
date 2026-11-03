@@ -1,24 +1,24 @@
 class Agentdeckd < Formula
   desc "Local agent daemon and session manager for AgentDeck"
   homepage "https://github.com/mantou132/AgentDeck"
-  version "0.7.0"
+  version "0.9.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mantou132/AgentDeck/releases/download/v0.7.0/agentdeckd-aarch64-apple-darwin.tar.gz"
-      sha256 "657c6626a07bf2994c857de6ba1ea18e80e110b607e3db21cf5571a3ea8f08be"
+      url "https://github.com/mantou132/AgentDeck/releases/download/v0.9.0/agentdeckd-aarch64-apple-darwin.tar.gz"
+      sha256 "0ecb68554552498ecf4556f7ff9698118e77787ba7fd48f9f41dbc80e3002171"
     end
     on_intel do
-      url "https://github.com/mantou132/AgentDeck/releases/download/v0.7.0/agentdeckd-x86_64-apple-darwin.tar.gz"
-      sha256 "8e1dfca13b702c8122e6ecdca77deb587167e5133c800d5da8ed9e5c1a27b371"
+      url "https://github.com/mantou132/AgentDeck/releases/download/v0.9.0/agentdeckd-x86_64-apple-darwin.tar.gz"
+      sha256 "4ebb736cc1ef5a7d63f5f717a9c53344371df583335d447fa9bbb9c4858420fd"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mantou132/AgentDeck/releases/download/v0.7.0/agentdeckd-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1e32dfc0a2dba5e527bb7bca24f255d44c24fcb2c801d33e007f62412bcc153b"
+      url "https://github.com/mantou132/AgentDeck/releases/download/v0.9.0/agentdeckd-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f10e1e454c83f5b6ee7e9b09478fe0b89c74801359efff6d5633a7c6866aad71"
     end
   end
 
