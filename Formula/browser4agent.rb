@@ -1,24 +1,24 @@
 class Browser4agent < Formula
   desc "MCP server that reads browser tab content and controls the browser"
   homepage "https://github.com/mantou132/browser4agent"
-  version "0.5.1"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mantou132/browser4agent/releases/download/v0.5.1/browser4agent-aarch64-apple-darwin.tar.gz"
-      sha256 "55bf81d5637f35b7614423ba0775346eebec3e858cd35fd18d56f822cb14f077"
+      url "https://github.com/mantou132/browser4agent/releases/download/v0.6.0/browser4agent-aarch64-apple-darwin.tar.gz"
+      sha256 "0920bfefd70708ca0248a019fe854b538450f10db437c2c5f77b07af26734e98"
     end
     on_intel do
-      url "https://github.com/mantou132/browser4agent/releases/download/v0.5.1/browser4agent-x86_64-apple-darwin.tar.gz"
-      sha256 "01579187057901a7e86bcb53c80fac88d7f5ebb969ed23ae360b33e5f7cc6736"
+      url "https://github.com/mantou132/browser4agent/releases/download/v0.6.0/browser4agent-x86_64-apple-darwin.tar.gz"
+      sha256 "83ae405f21799692ea0fb966c920a0f8904c633acd1d5f1bce9e7f7fcd6a496c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mantou132/browser4agent/releases/download/v0.5.1/browser4agent-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d2600fae5cf723cc2ccde86fc217b6dcd7d1eb97e108efdb97e0490e3d50bf5a"
+      url "https://github.com/mantou132/browser4agent/releases/download/v0.6.0/browser4agent-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "54520d3f8a78f71b79721d6934eb4d415b26204a4d5a009b851d72f14656971b"
     end
   end
 
